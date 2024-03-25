@@ -1,0 +1,44 @@
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.preact:hover {
+  filter: drop-shadow(0 0 2em #673ab8aa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.box{
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  transition: 2s ease-in-out;
+
+}
+
+.black {
+  background-color: black !important;
+ margin-left: 400px;
+
+}
+.down {
+  
+ margin-top: 200px;
+
+}
