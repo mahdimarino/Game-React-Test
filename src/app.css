@@ -5,6 +5,16 @@
   text-align: center;
 }
 
+.gamecontainer{
+ /*  background: url(assets/image.png) no-repeat; */
+  width: 1200px;
+  height: 600px;
+  background-color: green;
+}
+body {
+  overflow-wrap: break-word;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -17,7 +27,7 @@
 }
 
 .card {
-  padding: 2em;
+  width: 1000px;
 }
 
 .read-the-docs {
@@ -25,13 +35,20 @@
 }
 
 .box{
+  
   background-color: red;
-  width: 30px;
-  height: 30px;
-  transition: 2s ease-in-out;
+  
 
 }
+.box2{
+ 
+  background-color: rgb(72, 0, 255);
+  
 
+}
+.box img {
+  opacity: 0.9;
+}
 .black {
   background-color: black !important;
  margin-left: 400px;
